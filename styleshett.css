@@ -1,0 +1,45 @@
+
+
+body {
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {  
+  overflow: hidden;
+  background-color: #fdfeff;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 40px 100px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(223, 173, 223);
+}
+
+h1, h2, h3 {
+  font-family: fantasy;
+}
+
+h1 {
+  padding-top: 130px; 
+}
